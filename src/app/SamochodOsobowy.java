@@ -8,8 +8,8 @@ public class SamochodOsobowy extends PojazdSilnikowy {
 		super();
 	}
 	
-	public SamochodOsobowy(String nrRej, boolean hasMotor, int pojemnoscSilnika, String rodzajPaliwa, int maxPasazer) {
-		super(nrRej, hasMotor, pojemnoscSilnika, rodzajPaliwa);
+	public SamochodOsobowy(String nrRej, int pojemnoscSilnika, String rodzajPaliwa, int maxPasazer) {
+		super(nrRej, pojemnoscSilnika, rodzajPaliwa);
 		setMaxPasazer(maxPasazer);
 	}
 	

@@ -6,11 +6,13 @@ public class Rower extends Pojazd {
 	
 	public Rower() {
 		super();
+		
 	}
 	
-	public Rower(String nrRej, boolean hasMotor, Typ typRoweru) {
-		super(nrRej, hasMotor);
+	public Rower(String nrRej, Typ typRoweru) {
+		super(nrRej);
 		setTypRoweru(typRoweru);
+		super.hasMotor = false;
 	}
 	
 	public Typ getTypRoweru() {

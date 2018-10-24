@@ -15,9 +15,8 @@ abstract public class Pojazd {
 		
 	}
 	
-	public Pojazd(String nrRej, boolean hasMotor) {
+	public Pojazd(String nrRej) {
 		setNrRej(nrRej);
-		this.hasMotor = hasMotor;
 	}
 	
 	// gettery&settery

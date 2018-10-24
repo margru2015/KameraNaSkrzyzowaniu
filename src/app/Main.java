@@ -26,16 +26,16 @@ public class Main {
 		wszyscyWlasciciele.add(os7);
 		
 		// POJAZDY
-		Pojazd ciezarowka1 = new SamochodCiezarowy("DW 103", true, 5000, "Benzyna", 30000);
-		Pojazd bmw = new SamochodOsobowy("Dwr 007", true, 2000, "Ropa", 5);
-		Pojazd maluch = new SamochodOsobowy("DSW 789", true, 1000, "Gaz", 3);
-		Pojazd audi = new SamochodOsobowy("DW 342", true, 1500, "Benzyna", 5);
-		Pojazd skoda = new SamochodOsobowy("DW 232", true, 1500, "Ropa", 5);
-		Pojazd ciezarowka2 = new SamochodCiezarowy("DTR 132", true, 6000, "Benzyna", 50000);
-		Pojazd ciezarowka3 = new SamochodCiezarowy("DW 93", true, 5500, "Benzyna", 40000);
-		Pojazd romet = new Rower("1234", false, Typ.GORSKI);
-		Pojazd jubilat = new Rower("432", false, Typ.TURYSTYCZNY);
-		Pojazd giant = new Rower("342", false, Typ.KOLAZOWKA);
+		Pojazd ciezarowka1 = new SamochodCiezarowy("DW 103", 5000, "Benzyna", 30000);
+		Pojazd bmw = new SamochodOsobowy("Dwr 007", 2000, "Ropa", 5);
+		Pojazd maluch = new SamochodOsobowy("DSW 789", 1000, "Gaz", 3);
+		Pojazd audi = new SamochodOsobowy("DW 342", 1500, "Benzyna", 5);
+		Pojazd skoda = new SamochodOsobowy("DW 232", 1500, "Ropa", 5);
+		Pojazd ciezarowka2 = new SamochodCiezarowy("DTR 132", 6000, "Benzyna", 50000);
+		Pojazd ciezarowka3 = new SamochodCiezarowy("DW 93", 5500, "Benzyna", 40000);
+		Pojazd romet = new Rower("1234", Typ.GORSKI);
+		Pojazd jubilat = new Rower("432", Typ.TURYSTYCZNY);
+		Pojazd giant = new Rower("342", Typ.KOLAZOWKA);
 		
 		Set<Pojazd> wszystkiePojazdy = new HashSet<>();
 		wszystkiePojazdy.add(ciezarowka1);

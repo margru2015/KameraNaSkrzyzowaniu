@@ -10,10 +10,11 @@ public class PojazdSilnikowy extends Pojazd {
 		
 	}
 	
-	public PojazdSilnikowy(String nrRej, boolean hasMotor, int pojemnoscSilnika, String rodzajPaliwa) {
-		super(nrRej, hasMotor);
+	public PojazdSilnikowy(String nrRej, int pojemnoscSilnika, String rodzajPaliwa) {
+		super(nrRej);
 		setPojemnoscSilnika(pojemnoscSilnika);
 		setRodzajPaliwa(rodzajPaliwa);
+		super.hasMotor = true;
 		
 	}
 	
